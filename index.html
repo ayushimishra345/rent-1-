@@ -390,7 +390,7 @@
       <button class="ghost" id="printBtn">Print Receipt</button>
     </div>
 
-    <div class="footnote">Everything here stays in your browser — no data is uploaded anywhere.</div>
+  
   </div>
 
   <div class="history-wrap">
@@ -518,7 +518,7 @@
     const list = document.getElementById('historyList');
     list.innerHTML = '';
     if(records.length === 0){
-      list.innerHTML = '<div class="empty-state">No entries saved yet — fill in the receipt above and save it to the ledger.</div>';
+      list.innerHTML = '<div class="empty-state">No entries saved yet .</div>';
       return;
     }
     records.slice().reverse().forEach((r) => {
